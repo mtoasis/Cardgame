@@ -2,9 +2,47 @@
 body{
 	margin:0 10% 0 10%;
 	font-family: 'Permanent Marker', cursive;
+	width:900px;
+	height:1000px;
 
 }
 
+.gameover_div{
+	width:100%;
+	max-width: 820px;
+	height:840px;
+	background-color: black;
+	opacity:0.9;
+	z-index: 2;
+	position:absolute;
+	display:none;
+
+}
+
+.gameover_text{
+	font-size:55px;
+	color:white;
+	width:550px;
+	margin: 35% 30%;
+
+}
+
+#restart_button{
+	background-color: white;
+	border:5px solid red;
+	width:300px;
+	height:100px;
+	font-size:50px;
+	cursor:pointer;
+
+}
+
+.restart_button_div{
+	position:absolute;
+	left:0;
+	top:0;
+	margin:45% 30%;
+}
 
 
 .heading_text{
