@@ -9,12 +9,15 @@
   
 	<title>
 
-		Cardgame
+		CardFighters
 
 	</title>
 
 	<link rel="stylesheet" href="asset/css/reset.css">
 	<link rel="stylesheet" href="asset/css/style.css">
+	<link rel="stylesheet" href="asset/css/screens.css">
+	<link rel="stylesheet" href="asset/css/enemy.css">
+	<link rel="stylesheet" href="asset/css/card_common.css">
 	<link href="https://fonts.googleapis.com/css?family=Orbitron|Permanent+Marker" rel="stylesheet">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -27,32 +30,73 @@
 
 <body>
 	<div class="container">
-	<div class="gameover_div">
 
-		<div class="gameover_text">
-			<span>Game Over!</span>
-		</div>
-		<div class="restart_button_div">
-			<button id="restart_button">Restart</button>
-		</div>	
+		<div class="gameover_div">
+
+			<div class="gameover_text">
+				<span>Game Over!</span>
+			</div>
+			
+			<div class="restart_button_div">
+				<button id="restart_button">Restart</button>
+			</div>	
 		
-	</div>
+		</div>
+
+		<div class="start_screen_div">
+
+			<div class="start_screen_text">
+				<span>Click to Start!</span>
+			</div>
+			
+			<div class="start_button_div">
+				<button id="start_button">Start</button>
+			</div>	
+		
+		</div>
+
+		<div class="char_gif_div">
+
+		</div>
+
+		<div class="lv_up_screen">
+			<div class="lv_up_text">
+				LEVEL UP!
+			</div>
+
+		</div>
+
+		<div class="stg_up_screen">
+			<div class="stg_up_text">
+				STAGE UP!
+			</div>
+
+		</div>
+
+	
 
 	<div class="header_zone">
 
 		<div class="head_div">
 
-			<span class="heading_text"> Cardgame!</span>
+			<span class="heading_text"> CardFighters</span>
 
 		</div>
 
-		<div class="start">
-			<button id="start_button">Start</button>
+
+		<div class="restart_button_div_header">
+
+			<button id="restart_button_header">Reset</button>
+
 		</div>
 
-		<div class="generator">
-			<button id="generate_button">generate</button>
+		<div class="stage_lv_disp">
+			<div class="stage_lv_disp_text">
+				LV: 1
+			</div>
+
 		</div>
+
 	</div>
 
 	<div class="clear"></div>
@@ -63,8 +107,8 @@
 	
 	</div>
 
-	<audio id="hitting_sound" src="asset/sound/sound3.mp3"></audio>
-	<audio id="dying_sound" src="asset/sound/sound5.mp3"></audio>
+
+	<audio id="theme" src="asset/sound/theme.mp3"></audio>
 
 
 	<script src="asset/javascript/logic.js"></script>

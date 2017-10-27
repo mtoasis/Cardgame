@@ -7,47 +7,39 @@ body{
 
 }
 
-.gameover_div{
-	width:100%;
-	max-width: 820px;
-	height:840px;
-	background-color: black;
-	opacity:0.9;
-	z-index: 2;
+button{
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+
+.stage_lv_disp_text{
+	font-size: 50px;
+	border:3px solid blue;
+	color: black;
+	padding:17.5px;
+
+}
+
+.stage_lv_disp{
+
 	position:absolute;
-	display:none;
-
-}
-
-.gameover_text{
-	font-size:55px;
-	color:white;
-	width:550px;
-	margin: 35% 30%;
-
-}
-
-#restart_button{
-	background-color: white;
-	border:5px solid red;
-	width:300px;
-	height:100px;
-	font-size:50px;
-	cursor:pointer;
-
-}
-
-.restart_button_div{
-	position:absolute;
-	left:0;
+	left:600px;
 	top:0;
-	margin:45% 30%;
+	}
+
+
+
+.restart_button_div_header{
+	position:absolute;
+	left:365px;
+	top:0;
 }
 
 
 .heading_text{
 	font-size: 50px;
-	background-color: #B973B9;
+	background-color: #8B0000;
 	color: white;
 	padding:10px;
 
@@ -69,191 +61,18 @@ body{
 
 }
 
-.start{
-	position: absolute;
-	left:300px;
-
-}
-#start_button{
-	background-color:#778899;
-	border:none;
-	width:240px;
-	height:90px;
-	font-size:50px;
-	font-family: 'Permanent Marker', cursive;
-	color:white;
-}
-
-#start_button:hover{
-	background-color: white;
-	border:3px solid #778899;
-	color: #778899;
-	cursor:pointer;
-}
-
-.generator{
-	position: absolute;
-	left:550px;
-
-}
-
-#generate_button{
-	background-color:#778899;
-	border:none;
-	width:240px;
-	height:90px;
-	font-size:50px;
-	font-family: 'Permanent Marker', cursive;
-	color:white;
-}
-
-#generate_button:hover{
-	background-color: white;
-	border:3px solid #778899;
-	color: #778899;
-	cursor:pointer;
-}
-
-
-
-
 .card_list{
 	border: 3px dotted #4169E1;
-	width:700px;
+	width:660px;
 	height:640px;
 	margin:0 0 20px 0;
 	display: block;
 	box-shadow: 10px 10px 5px #888888;
 	position:relative;
-	/*top:100px;*/
+
 	padding:20px 50px;
 
 }
-
-/*.card_div_area{
-	width:700px;
-	height:320px;
-
-}
-
-.selected_div_area{
-	width:700px;
-	height:320px;
-}
-*/
-
-#xmark{
-	position: absolute;
-	z-index: 1;
-	top:-10px;
-	left:-10px;
-	display:none;
-}
-
-.ApHp{
-	font-family: 'Orbitron', sans-serif
-}
-
-.AP_div{
-	border: 3px solid blue;
-	padding:5px;
-	position: absolute;
-	left:10px;
-	bottom:5px;
-	background-color: white;
-	font-weight:bold;
-	width:30px;
-	height:20px;
-}
-
-.HP_div{
-	border: 3px solid red;
-	padding:5px;
-	position:absolute;
-	right:10px;
-	bottom:5px;
-	background-color: white;
-	font-weight:bold;
-	width:30px;
-	height:20px;
-}
-
-.ap_disp{
-	position:absolute;
-	left:17px;
-	bottom:50px;
-	font-size: 20px;
-	color:blue;
-}
-
-.hp_disp{
-	position:absolute;
-	right:20px;
-	bottom:50px;
-	font-size: 20px;
-	color:red;
-}
-
-
-
-.card_div{
-	border: 5px double #663300;
-	padding:10px;
-	width: 150px;
-	height:280px;
-	position:relative;
-	background-color:#BDB76B;
-	box-shadow: 10px 10px 5px #888888;
-	cursor: pointer;
-	float:left;
-	margin-right:20px;
-}
-
-.selected_card{
-	border: 5px double #663300;
-	padding:10px;
-	width: 150px;
-	height:250px;
-	position:relative;
-	background-color:#BDB76B;
-	box-shadow: 10px 10px 5px #888888;
-	cursor: pointer;
-	float:left;
-	margin-right:20px;
-
-}
-
-/*.card_div:hover, .selected_card:hover{
-	background-color: blue;
-}*/
-
-
-
-.card_images{
-	width:80px;
-	padding:10px;
-	border:3px dotted black;
-	position:absolute;
-	left:35px;
-	background-color: white;
-}
-
-
-
-.card_name{
-	background-color: white;
-	width:100px;
-	height:20px;
-	position:absolute;
-	left:25px;
-	bottom:80px;
-	padding:4px 10px 10px 5px;
-	border: 3px solid black;
-	text-align:center;
-	/*font-weight: bold;*/
-	font-size:22px;
-}
-
 
 .clear{
 	clear:both;

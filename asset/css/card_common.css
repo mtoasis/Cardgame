@@ -1,0 +1,126 @@
+
+.card_images{
+	width:80px;
+	padding:10px;
+	border:3px double black;
+	position:absolute;
+	left:35px;
+	background-color: white;
+}
+
+
+.card_name{
+	background-color: white;
+	width:100px;
+	height:20px;
+	position:absolute;
+	left:25px;
+	bottom:80px;
+	padding:4px 10px 10px 5px;
+	border: 3px solid black;
+	text-align:center;
+	/*font-weight: bold;*/
+	font-size:22px;
+}
+
+#xmark{
+	position: absolute;
+	z-index: 1;
+	top:-10px;
+	left:-10px;
+	display:none;
+}
+
+.ApHp{
+	font-family: 'Orbitron', sans-serif
+}
+
+.AP_div{
+	border: 3px solid blue;
+	padding:5px;
+	position: absolute;
+	left:10px;
+	bottom:5px;
+	background-color: white;
+	font-weight:bold;
+	width:30px;
+	height:20px;
+}
+
+.HP_div{
+	border: 3px solid red;
+	padding:5px;
+	position:absolute;
+	right:10px;
+	bottom:5px;
+	background-color: white;
+	font-weight:bold;
+	width:30px;
+	height:20px;
+}
+
+.ap_disp{
+	position:absolute;
+	left:17px;
+	bottom:50px;
+	font-size: 20px;
+	color:blue;
+}
+
+.hp_disp{
+	position:absolute;
+	right:20px;
+	bottom:50px;
+	font-size: 20px;
+	color:red;
+}
+
+
+
+.card_div{
+	border: 5px double #663300;
+	padding:10px;
+	width: 150px;
+	height:280px;
+	position:relative;
+	background-color:#BDB76B;
+	box-shadow: 10px 10px 5px #888888;
+	cursor: pointer;
+	float:left;
+	margin-right:20px;
+}
+
+.selected_card{
+	border: 5px double #663300;
+	padding:10px;
+	width: 150px;
+	height:250px;
+	position:relative;
+	background-color:#BDB76B;
+	box-shadow: 10px 10px 5px #888888;
+	cursor: pointer;
+	float:left;
+	margin-right:20px;
+
+}
+
+.lv_disp{
+	background-color: white;
+	border:solid 2px red;
+	z-index: 1;
+	width:30px;
+	height:30px;
+	position: absolute;
+	left:5px;
+	top:5px;
+
+}
+
+.lv_disp_text{
+	position:absolute;
+	left:12px;
+	top:5px;
+	font-size:20px;
+	color:red;
+}
+
