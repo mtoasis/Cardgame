@@ -90,9 +90,9 @@ console.log("exp req is: "+exp_req)
 
         $(".card_list").empty();
         stage_level=1
-        level=0
+        $(".stage_lv_disp_text").text("LV: "+stage_level);
         character_selected = 0;
-                card_number = 0;
+        card_number = 0;
         attack_p;
         current_hp;
         current_ap;
